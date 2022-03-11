@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(45deg,lightseagreen, green);
+}
+
+.inicial{
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    left: 65%;
+    top: 35%;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+  
+}
+
+button{
+    background-color: lightseagreen;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  
+}
+
+button:hover{
+    background-color: lightblue;
+}
+
+.imagem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    
+}
